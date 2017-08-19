@@ -7,6 +7,6 @@ public class TestSum {
 
     @Test
     public void basicTest() {
-        Assert.assertEquals(UnsignedIntSum.sumUnsignedInts("src/test/resources/simple"), 15);
+        Assert.assertEquals(15, UnsignedIntSum.sumUnsignedInts("src/test/resources/simple"));
     }
 }
